@@ -1,6 +1,6 @@
 function recursion(obj) {
   let res = [];
-  treeParse(tree, 0, res);
+  treeParse(obj, 0, res);
   return res;
 }
 
@@ -16,3 +16,5 @@ function treeParse(tree, i, res) {
     }
   }
 }
+
+module.exports = recursion;
